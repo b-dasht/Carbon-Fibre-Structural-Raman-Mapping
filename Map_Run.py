@@ -10,7 +10,7 @@ from Spectra_Plots import plot_spectra
 
 
 # Define the input file
-input_files = ['Pristine.txt', 'Desized.txt','ASPN.txt']
+input_files = [] #Add name of files to this array (including extensions)
 
 for file in input_files:
 
@@ -117,4 +117,5 @@ for file in input_files:
 
             # Plot spectra
             plot_spectra(output_dir, x_val, y_val, waves, raw, denoised, smoothed_intensities, baseline, corrected_intensities, id_fit, ig_fit, id2_fit, ig2_fit, combined_fit)
+
 

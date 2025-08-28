@@ -42,4 +42,5 @@ This makes the workflow more reliable for automated, high-throughput Raman analy
 
 ## Toolbox Status
 
-This toolbox is functional but no longer being developed. A more generalised and powerful multi-stage mapping spectral analysis pipeline is currently under development that can expand on the functionality available within this script.
+This toolbox is functional but no longer being developed. A more powerful and generalised multi-stage mapping spectral analysis pipeline is currently under development to replace this pipeline. Details can be found in my MappingSpectralAnalysis repository.
+
